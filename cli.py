@@ -26,6 +26,7 @@ def remove(word: str):
     except:
         typer.echo('Word does not exist in Trie!')
 
+
 @typerApp.command()
 def add(word: str):
     response = requests.get(url+'add/'+word)
