@@ -1,0 +1,5 @@
+boto3==1.18.37
+Flask==1.1.2
+Flask_RESTful==0.3.8
+typer==0.4.0
+gunicorn
