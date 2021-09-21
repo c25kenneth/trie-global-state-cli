@@ -7,13 +7,8 @@ import boto3
 app = Flask(__name__)
 api = Api(app)
 
-AWS_S3_CREDS = {
-    "aws_access_key_id": 'AKIATHHE4TIEVZ6H4YXA', 
-    "aws_secret_access_key": "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" 
-}
-
 s3 = boto3.resource(service_name='s3', region_name='us-east-2')
-s3Client = boto3.client('s3', **AWS_S3_CREDS)
+s3Client = boto3.client('s3')
 
 class GlobalTrieCMDOnly(Resource):
     def get(self, command):
