@@ -1,6 +1,7 @@
 # trie-cli-global
 
 A CLI that allows a user to update or see a data structure that is hosted globally.
+
 (NOTE: PYTHON 3.9.6 MUST BE INSTALLED!!)
 
 ## Installation
