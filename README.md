@@ -5,7 +5,8 @@ A CLI that allows a user to update or see a data structure that is hosted global
 (IMPORTANT: PYTHON 3.9.6 MUST BE INSTALLED!!)
 
 Please Note: 
-    The README in the Github will be different from the one in PYPI. This is because the company that is requesting this project will most likely ask me to make the repo       private to keep others from looking at the code as well as development procedure. This is the full README. The one in PYPI simply shows commands and how to use. 
+- The README in the Github will be different from the one in PYPI. This is because the company that is requesting this project will most likely ask me to make the repo       private to keep others from looking at the code as well as development procedure. This is the full README. The one in PYPI simply shows commands and how to use. 
+- ```pyproject.toml``` and ```setup.cfg``` were used initially. However, the main source of deployment is from ```setup.py```. Some sources claim that one is better than the other. I have decided to go with ```setup.py``` for simplicity. I have left the other two files up there to be viewed. 
     
 Tools Used and How: 
 - AWS was used to store the Trie Data Structure. Using AWS' boto3, a pickle file is stored in an s3 bucket. 
@@ -51,3 +52,5 @@ trie-cli-global check YOUR_WORD
 ```
 trie-cli-global recommend YOUR_PREFIX
 ```
+
+## Test with Curl
