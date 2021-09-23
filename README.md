@@ -8,13 +8,13 @@ Please Note:
     The README in the Github will be different from the one in PYPI. This is because the company that is requesting this project will most likely ask me to make the repo       private to keep others from looking at the code as well as development procedure. This is the full README. The one in PYPI simply shows commands and how to use. 
     
 Tools Used and How: 
-    - AWS was used to store the Trie Data Structure. Using AWS' boto3, a pickle file is stored in an s3 bucket. 
+- AWS was used to store the Trie Data Structure. Using AWS' boto3, a pickle file is stored in an s3 bucket. 
     
-    - A Flask REST API was used to handle client requests and interactions. It is hosted on Heroku and the web URL is https://global-trie-     cli.herokuapp.com/updatetrie/<COMMAND>/<OPTIONAL_WORD>. (Word is optional depending on the command. See the usage instructions below). 
+- A Flask REST API was used to handle client requests and interactions. It is hosted on Heroku and the web URL is https://global-trie-     cli.herokuapp.com/updatetrie/<COMMAND>/<OPTIONAL_WORD>. (Word is optional depending on the command. See the usage instructions below). 
     
-    - Click was used to create the CLI. When given the correct commands, it will send a GET request via the REQUESTS Library. The returned value is printed afterwards. 
+- Click was used to create the CLI. When given the correct commands, it will send a GET request via the REQUESTS Library. The returned value is printed afterwards. 
     
-    - The project was hosted on PYPI. Link is Here (https://pypi.org/project/trie-cli-global/). Install the project via ```pip install trie-cli-global```. 
+- The project was hosted on PYPI. Link is Here (https://pypi.org/project/trie-cli-global/). Install the project via ```pip install trie-cli-global```. 
     
 ## Installation
 
