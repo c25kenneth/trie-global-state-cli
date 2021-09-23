@@ -18,36 +18,36 @@ Tools Used and How:
     
 ## Installation
 
-Use [pip](https://pip.pypa.io/en/stable/) to install trie-global.
+Use [pip](https://pip.pypa.io/en/stable/) to install trie-cli-global.
 
 ```bash
-pip install trie-global
+pip install trie-cli-global
 ```
 
 ## Usage
 
 # To List Trie:
 ```
-trie-global list
+trie-cli-global list
 ```
 
 # To add word to Trie:
 ```
-trie-global add YOUR_WORD
+trie-cli-global add YOUR_WORD
 ```
 
 # To remove word from Trie:
 ```
-trie-global remove YOUR_WORD
+trie-cli-global remove YOUR_WORD
 ```
 
 # To check if word is from Trie:
 ```
-trie-global check YOUR_WORD
+trie-cli-global check YOUR_WORD
 ```
 
 # To get recommendations from a prefix:
 
 ```
-trie-global recommend YOUR_PREFIX
+trie-cli-global recommend YOUR_PREFIX
 ```
