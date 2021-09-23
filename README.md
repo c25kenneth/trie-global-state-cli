@@ -10,7 +10,7 @@ Please Note:
 Tools Used and How: 
 - AWS was used to store the Trie Data Structure. Using AWS' boto3, a pickle file is stored in an s3 bucket. 
     
-- A Flask REST API was used to handle client requests and interactions. It is hosted on Heroku and the web URL is https://global-trie-     cli.herokuapp.com/updatetrie/<COMMAND>/<OPTIONAL_WORD>. (Word is optional depending on the command. See the usage instructions below). 
+- A Flask REST API was used to handle client requests and interactions. It is hosted on Heroku and the web URL is https://global-trie-     cli.herokuapp.com/updatetrie/COMMAND/OPTIONAL_WORD. (Word is optional depending on the command. See the usage instructions below). 
     
 - Click was used to create the CLI. When given the correct commands, it will send a GET request via the REQUESTS Library. The returned value is printed afterwards. 
     
