@@ -2,7 +2,11 @@
 
 A CLI that allows a user to update or see a data structure that is hosted globally.
 
-(NOTE: PYTHON 3.9.6 MUST BE INSTALLED!!)
+##(IMPORTANT: PYTHON 3.9.6 MUST BE INSTALLED!!)
+
+#Please Note: 
+    The README in the Github will be different from the one in PYPI. This is because the company that is requesting this project will most likely ask me to make the repo       private to keep others from looking at the code. This is the full README. The one in PYPI simply shows commands and how to use. 
+    
 
 ## Installation
 
