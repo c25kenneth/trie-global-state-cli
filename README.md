@@ -54,3 +54,18 @@ trie-cli-global recommend YOUR_PREFIX
 ```
 
 ## Test with Curl
+
+# To Get Words in Trie:
+```curl -X GET "https://global-trie-cli.herokuapp.com/updatetrie/list"```
+
+# To add word to Trie:
+```curl -X GET https://global-trie-cli.herokuapp.com/updatetrie/add/[WORD]"```
+
+# To check word to Trie:
+```curl -X GET "https://global-trie-cli.herokuapp.com/updatetrie/check/[WORD]"```
+
+# To Remove Word from Trie:
+```curl -X GET https://global-trie-cli.herokuapp.com/updatetrie/remove/[WORD]"```
+
+# To Get Recommendations from Prefix:
+```curl -X GET https://global-trie-cli.herokuapp.com/updatetrie/recommend/[PREFIX]"```
