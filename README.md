@@ -53,6 +53,10 @@ trie-cli-global check YOUR_WORD
 trie-cli-global recommend YOUR_PREFIX
 ```
 
+__________________________________________________________________________________________________________
+
+
+
 ## Test with Curl
 
 # To Get Words in Trie:
