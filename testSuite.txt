@@ -1,3 +1,42 @@
 View Trie (A few words may already be there from previous attempts):
 
 trie-cli-global list
+
+_________________________________________
+
+Add Some Words:
+
+trie-cli-global add Computer
+trie-cli-global add Keyboard
+trie-cli-global check Computer
+trie-cli-global list
+trie-cli-global add Keys
+
+______________________________________________
+
+Remove and Check Some Words: 
+
+trie-cli-global remove Keyboard
+trie-cli-global check Keyboard
+trie-cli-global list
+trie-cli-global add Keyboard
+trie-cli-global check Keyboard
+trie-cli-global list
+
+_______________________________________________
+
+Get Word Recommendations:
+
+trie-cli-global recommend Comp
+trie-cli-global recommend Ke
+trie-cli-global recommend Key
+
+_______________________________________________
+
+Some commands that will be considered invalid:
+
+trie-cli-global remove
+trie-cli-global add
+trie-cli-global adsf
+trie-cli-global list asdf
+
