@@ -21,6 +21,7 @@ class Trie:
             currNode = currNode[letter]
         return '*' in currNode
 
+    #Function below was a reference from StackOverflow. Link: https://stackoverflow.com/questions/36977439/python-trie-how-to-traverse-it-to-build-list-of-all-words
     def list_words(self, trie):
         my_list = []
         for k,v in trie.items():
@@ -31,7 +32,7 @@ class Trie:
                 my_list.append('')
         return my_list
 
-    #Function below was a reference from stackoverflow. https://stackoverflow.com/questions/15709261/how-to-implement-the-remove-function-of-a-trie-in-python
+    #Function below was a reference from StackOverflow. Link: https://stackoverflow.com/questions/46038694/implementing-a-trie-to-support-autocomplete-in-python
     def words_with_prefix(self, prefix: str):
         '''
         return all possible words with common prefix
@@ -52,6 +53,7 @@ class Trie:
                 continue
             self._words_with_prefix_helper(node[k], prefix + k, ans)
 
+    #Remove function was got from StackOverflow. Link: https://stackoverflow.com/questions/15709261/how-to-implement-the-remove-function-of-a-trie-in-python
     def remove_word(self, word):
         current_dict = self.root
         for letter in word:
