@@ -1,0 +1,3 @@
+View Trie (A few words may already be there from previous attempts):
+
+trie-cli-global list
